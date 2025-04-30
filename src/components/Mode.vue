@@ -2,7 +2,7 @@
   <div class="container">
     <div class="title">
       <div class="title-img">
-        <img src="@/assets/logo.svg" alt="Logo" />
+        <img src="/assets/logo.svg" alt="Logo" />
       </div>
     </div>
 
@@ -28,7 +28,7 @@
 import { ref } from 'vue';
 
 const emit = defineEmits(['changeMode'])
-const lightMode = ref(true)
+const lightMode = ref(false)
 
 const changeMode = () =>{
   lightMode.value =! lightMode.value

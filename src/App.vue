@@ -1,14 +1,16 @@
 <template>
   <Mode @changeMode = 'handleLightMode' />
+  <List/>
 </template>
 
 <script>
+import List from './components/List.vue';
 import Mode from './components/Mode.vue';
 
 export default {
   name: 'App',
   components: {
-    Mode
+    Mode, List
   },
   methods:{
     handleLightMode(data){
