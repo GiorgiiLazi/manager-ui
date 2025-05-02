@@ -179,6 +179,9 @@ const inactiveCards = computed(() =>
     margin: 1em;
 }
 .cards{
+    display: flex;
+    flex: 1 1 300px;
+    height: 200px;
     padding: 5px;
     border-radius: 8px;
     background: rgba(204, 204, 204, 0.5);
